@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            height: 500vh;
+        }
+        .outer{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .inner{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+        .see{
+            background-color: antiquewhite;
+            color: black;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            right: 10px;
+            bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">hello</div>
+    </div>
+    <div class="msg">
+        <h1>></h1>
+    </div>
+</body>
+</html>

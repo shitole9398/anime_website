@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+            display: flex;
+            background-color: #1d1d1d;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+
+        }
+        .outer{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+}
+        .inner{
+            display: flex;
+            align-items: center;
+            background-color: #f0f0ed;
+            justify-content: center;
+            width: 100px;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+            transition: all .5s ease;
+            border: 1px solid white;
+        }
+
+        .inner:hover{
+            width: 250px;
+            height: 200px;
+            background-size: 100% 100%;
+
+        }
+
+        .inner1{
+            background-image: url("./img\ 15.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .inner2{
+            background-image: url("./img\ 16.jpg");
+           
+           
+            background-repeat: no-repeat;
+        }
+
+
+        .inner3{
+            background-image: url("./img\ 17.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner inner1"></div>
+        <div class="inner inner2 "></div>
+        <div class="inner inner3 "></div>
+    </div>
+</body>
+</html>
